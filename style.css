@@ -1,0 +1,141 @@
+Body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.Login-window{
+  left:50%;
+  right:50%;
+  right:200px;
+  left:200px;
+  height: auto;
+  min-height: 500px;
+  padding-left: 40 ;
+  padding-right: 40;
+  padding-top:48;
+  padding-bottom: 36;
+  margin-top:200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 14px;
+  line-height: 1.4286;
+  text-align: center;
+}
+
+.Logo{
+  margin-top:220px;
+  margin-left: auto;
+  margin-right: auto;
+  width:74px;
+  height:37px;
+}
+
+.text1{
+  font-weight: normal;
+  box-sizing: inherit;
+
+}
+h1{
+  font-size: 24px;
+  line-height: 1.3333;
+  text-align: center;
+}
+h2{
+  font-size: 16px;
+  letter-spacing: .1px;
+  line-height: 1.5;
+  text-align: center;
+
+}
+
+.input{
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1;
+    background-color: transparent;
+    border: none;
+    display: block;
+    font: 400 16px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    height: 24px;
+    line-height: 24px;
+    margin: 0;
+    min-width: 50%;
+    outline: none;
+    padding: 0;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    color: #212121;
+    unicode-bidi: isolate;
+    text-align: center;
+}
+
+ a {
+   text-align: center;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.3333;
+   font-weight: bold;
+   font-style: normal;
+ }
+
+h3{
+   padding-bottom: 3px;
+   padding-top: 9px;
+   color: #5f6368;
+   font-size: 14px;
+   line-height: 1.4286;
+   font-weight: normal;
+}
+
+.button{
+  margin:8px 16px;
+  line-height: 20px;
+  text: white;
+  background-color: #fff;
+}
+
+.footer{
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer-left{
+  position: relative;
+  margin-right:50px;
+  border-radius: 2px;
+  color: #757575;
+  padding: 6px 16px;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  outline: none;
+  font-size: 12px;
+  line-height: 1.4;
+
+}
+.footer-right{
+  margin-left: 50px;
+}
+ b {
+   border-radius: 2px;
+   color: #757575;
+   padding: 6px 16px;
+   cursor: pointer;
+   font-weight: 500;
+   text-decoration: none;
+   outline: none;
+   font-size: 12px;
+   line-height: 1.4;
+ }
+.footer-left, .footer-right{
+  display:inline-block;
+}
